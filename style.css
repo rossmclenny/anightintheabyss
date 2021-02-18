@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url(assets/img/anightbg.jpg);
+  background: url(/assets/img/anightbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
