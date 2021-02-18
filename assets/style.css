@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: "Krona One", sans-serif;
+}
+
+body {
+  background: url(/assets/img/anightbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.row {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #ec7c16;
+  margin-left: 5rem;
+}
+
+.navbar-custom .navbar-nav .nav-link a:hover {
+  border-bottom: 1px solid #ec7c16;
+}
+
+.navbar-custom .navbar-nav .nav-link i {
+  color: #ec7c16;
+}
+
+i.fas.fa-bars {
+  margin-top: 25%;
+  color: #ec7c16;
+}
+
+#head {
+  margin-top: 5rem;
+}
+#video {
+  margin-top: 3rem;
+}
+#merch {
+  margin-top: 3rem;
+}
+
+.head-row {
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  align-items: center;
+  margin: 0;
+  background-color: black;
+}
+.head-img {
+  display: flex;
+  justify-content: center;
+}
+
+.head-img img {
+  width: 100%;
+  padding: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  padding: 1rem;
+}
+
+.bottom-left img {
+  width: 30%;
+}
+
+button {
+  background-color: #1db954;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.video-container {
+  margin-top: 2rem;
+  border: 2px solid #ec7c16;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin-top: 2rem;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.merch-title-row {
+  margin-top: 2rem;
+}
+
+.banner-row {
+  margin: 0 auto;
+}
+
+.container-merch {
+  margin-top: 1rem;
+}
+
+.product-list-left-effect {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.product-list-left-effect img {
+  transition-duration: 0.4s;
+}
+
+.product-list-left-effect .product-overlay {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  top: 5%;
+  left: -100%;
+
+  transition-duration: 0.4s;
+  -webkit-transition: left 0.5s ease-in-out;
+}
+
+.product-list-left-effect .product-overlay h3 {
+  margin: 0 0 12px 0;
+}
+
+.product-list-left-effect:hover .product-overlay {
+  /*opacity:1;*/
+  -webkit-transition: left 0.5s ease-in-out;
+  left: 5%;
+}
+
+.product-list-left-effect:hover img {
+  transform: scale(1.1);
+}
+/*product-list-hover-slide-effect*/
+
+/*theme-heading*/
+
+.theme-heading {
+  text-align: center;
+  font-weight: 300;
+  color: #ec7c16;
+  margin: 1rem;
+}
+
+.product-overlay h3 {
+  font-size: 16px;
+}
+
+.product-overlay p {
+  font-size: 8px;
+}
+
+.container-merch {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button.btn.btn-default {
+  background-color: #ec7c16;
+  border: none;
+  border-radius: 50px;
+}
+
+button.btn.btn-default a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* table tour */
+
+.tour-row {
+  margin-top: 5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bit-widget.bit-layout-desktop .bit-offers {
+  background-color: #ec7c16;
+  margin-left: 0;
+  border: none;
+}
+
+/* contact row */
+
+.members-col {
+  font-size: 12px;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .bottom-left h2 {
+    font-size: 10px;
+  }
+  .bottom-left button {
+    font-size: 10px;
+  }
+}
