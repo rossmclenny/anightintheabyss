@@ -7,7 +7,7 @@
   color: whitesmoke;
   font-family: "Krona One", sans-serif;
 }
-
+/* main styling */
 body {
   background: url("/assets/img/anightbg.jpg");
   background-size: cover;
@@ -16,9 +16,21 @@ body {
   background-attachment: fixed;
 }
 
+#head {
+  margin-top: 5rem;
+}
+#video {
+  margin-top: 5rem;
+}
+#merch {
+  margin-top: 5rem;
+}
+
 .row {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+/* navbar styling */
 
 .navbar-brand img {
   height: 50px;
@@ -47,15 +59,8 @@ i.fas.fa-bars {
   color: #ec7c16;
 }
 
-#head {
-  margin-top: 5rem;
-}
-#video {
-  margin-top: 5rem;
-}
-#merch {
-  margin-top: 5rem;
-}
+
+/* header styling */
 
 .head-row {
   position: relative;
@@ -97,6 +102,8 @@ button {
   padding: 10px;
 }
 
+/* video style */
+
 .video-container {
   margin-top: 5rem;
   border: 2px solid #ec7c16;
@@ -116,6 +123,9 @@ button {
   height: 100%;
 }
 
+
+/* merch style */
+
 .merch-title-row {
   margin-top: 2rem;
 }
@@ -126,6 +136,7 @@ button {
 
 .container-merch {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .product-list-left-effect {
@@ -186,10 +197,7 @@ button {
   font-size: 8px;
 }
 
-.container-merch {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+
 
 button.btn.btn-default {
   background-color: #ec7c16;
