@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url(assets/img/anightbg.jpg);
+  background: url("/assets/img/anightbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,10 +51,10 @@ i.fas.fa-bars {
   margin-top: 5rem;
 }
 #video {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 #merch {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .head-row {
@@ -98,7 +98,7 @@ button {
 }
 
 .video-container {
-  margin-top: 2rem;
+  margin-top: 5rem;
   border: 2px solid #ec7c16;
 }
 
@@ -106,7 +106,7 @@ button {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
-  margin-top: 2rem;
+  
 }
 .videoWrapper iframe {
   position: absolute;
@@ -216,6 +216,10 @@ button.btn.btn-default a {
 }
 
 /* contact row */
+
+#contact {
+    margin-top: 5rem;
+}
 
 .members-col {
   font-size: 12px;
